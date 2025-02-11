@@ -1,0 +1,53 @@
+@import url(fonts.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    background: none;
+    border: 1px white solid;
+    color: white;
+}
+
+input[type="date"], input[type="text"], input[type="tel"], input[type="email"], input[type="password"]{
+    padding-left: 5%;
+    font-family: "Montserrat-regular";
+    font-size: 1rem;
+}
+
+main {
+    background-color: #383330;
+    width: 609px;
+    height: 782px;
+}
+
+main > div {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+main > div input {
+    width: 85%;
+    height: 30px;
+}
+
+main > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+}
+
+main > div > div input {
+    width: 30%;
+    height: 40px;
+}

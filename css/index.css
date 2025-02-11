@@ -1,0 +1,516 @@
+@import url(fonts.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+.dataCup{
+    text-align: center;
+}
+
+.mini_menu input {
+    width: 9vw;
+    border: none;
+    background: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.ads_coffe {
+    background: url(../img/ads_coffe.png) no-repeat;
+    background-size: cover;
+}
+
+.ads_coffe p {
+    font-family: "Misto";
+    font-size: 2rem;
+    color: #fff;
+}
+
+.wrapper_border {
+    display: flex;
+    margin: 8% 5% 0 5%;
+}
+
+.ads_coffe a {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.ads_coffe a:hover {
+    color: #b9b9b9;
+}
+
+.ads_coffe a:not(.ads_coffe a:last-of-type) {
+    border-bottom: solid #fff 2px;
+}
+
+.ads_coffe > div > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 2% 20%;
+    gap: 10%;
+}
+
+.ads_coffe > div > div > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.ads_coffe > div > div > div:nth-of-type(1) > a:not(.ads_coffe > div > div:nth-of-type(1) > a:last-of-type){
+    display: flex;
+    justify-content: center;
+    padding: 5% 0 5% 0;
+    width: 100%;
+}
+
+.ads_coffe > div > div > div:nth-of-type(2) > p {
+    display: flex;
+    font-size: 4.5rem;
+}
+
+.mini_menu p {
+    font-family: "Montserrat-regular";
+    font-size: 1rem;
+    color: #fff;
+}
+
+.mini_menu {
+    display: flex;
+    gap: 5%;
+}
+
+.mini_menu > div:first-of-type {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mini_menu > div:first-of-type > div {
+    display: flex;
+    gap: 5%;
+}
+
+.mini_menu > div:first-of-type > div > div:nth-of-type(2) > a {
+    border: solid #fff 2px;
+    text-align: center;
+    padding: 4% 5% 4% 5%;
+    font-size: 1rem;
+}
+
+.mini_menu > div:first-of-type > div > div:nth-of-type(2) > img{
+    display: none;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > p {
+    padding-bottom: 5%;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > p:last-of-type {
+    border: solid #fff 2px;
+    width: 50%;
+    text-align: center;
+    padding: 4% 5% 4% 5%;
+    margin: 0 0 5% 0;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > p span {
+    font-weight: bold;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    width: 100%;
+    margin: 0 0 25% 0;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > a {
+    display: flex;
+    border: solid #fff 2px;
+    padding: 4% 5% 4% 5%;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    border: solid #fff 2px;
+    align-items: center;
+    padding: 4% 5% 4% 5%;
+    width: 50%;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(1) p:nth-of-type(2){
+    display: none;
+}
+
+.mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2) {
+    border: solid #fff 2px;
+    text-align: center;
+    padding: 4% 5% 4% 5%;
+    width: 40%;
+}
+
+.mini_menu > div:first-of-type > div > div:nth-of-type(2) {
+    text-align: center;
+    width: 60%;
+}
+
+.mini_menu > div:nth-of-type(2) {
+    display: flex;
+    width: 100%;
+}
+
+.mini_menu > div:nth-of-type(2) > img {
+    display: flex;
+    width: 100%;
+}
+
+.wrapper_border2 {
+    display: flex;
+    margin: 0 25% 0 25%;
+}
+
+.delivere {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 8% 20% 0 20%;
+    padding: 4% 10% 4% 10%;
+    border: solid #fff 2px;
+}
+
+.delivere > div > h2 {
+    font-family: "Montserrat-regular";
+    font-size: 3.4rem;
+    color: #fff;
+}
+
+.delivere > div > h2 > span {
+    font-family: "Misto";
+}
+
+.delivere > div:nth-of-type(1) {
+    margin: 0 0 10% 0;
+}
+
+.delivere > div:nth-of-type(2) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.delivere > div:nth-of-type(2) > div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+}
+
+.delivere > div:nth-of-type(2) > div > div {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 35%;
+}
+
+.delivere > div:nth-of-type(2) > div > div > a {
+    border: solid #fff 2px;
+    padding: 6% 25% 6% 25%;
+}
+
+.delivere > div:nth-of-type(2) > div:first-of-type > div img:first-of-type {
+    width: 15vw;
+}
+
+.delivere > div:nth-of-type(2) > div:nth-of-type(2) > div img:first-of-type {
+    width: 12vw;
+}
+
+.sale {
+    margin: 8% 5% 0 5%;
+    justify-content: space-between;
+}
+
+.sale > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.sale > div > h2 {
+    font-size: 2.2rem;
+    margin: 0 0 10% 0;
+}
+
+.sale h2, .sale p {
+    font-size: 1.5rem;
+    font-family: "Montserrat-regular";
+    color: #fff;
+}
+
+.sale span {
+    font-size: 2.7rem;
+    font-family: "Misto";
+}
+
+.sale > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sale > div > div > img {
+    width: 70%;
+}
+
+.sale > div > div > a {
+    border: solid #fff 2px;
+    padding: 3% 8% 3% 8%;
+}
+
+.sale > div:nth-of-type(2) > img {
+    width: 100%;
+    height: 100%;
+}
+
+.ForUs {
+    display: flex;
+    gap: 10%;
+}
+
+.ForUs img {
+    display: flex;
+    width: 100%;
+}
+
+.ForUs h2 {
+    font-family: "Misto";
+    color: #fff;
+    font-size: 2.2rem;
+    margin: 0 0 5% 0;
+}
+
+.ForUs p {
+    font-family: "Montserrat-regular";
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.ForUs > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ForUs > div:nth-of-type(2) {
+    display: flex;
+    width: 100%;
+}
+
+.ForUs > div:nth-of-type(1) > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.ForUs > div:first-of-type > div:nth-of-type(2){
+    display: none;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Reviews h2 {
+    font-family: "Misto";
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.Reviews p {
+    font-family: "Montserrat-regular";
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.Reviews > div > div > div > img {
+    width: 20%;
+}
+
+.Reviews > div {
+    display: flex;
+    margin: 0 7% 0 7%;
+}
+
+.Reviews > div > div > div {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 25%;
+}
+
+.Reviews > div > div > div > div > div:first-of-type {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.Reviews > div > div:nth-of-type(2) {
+    margin-top: 15%;
+}
+
+.Reviews > div > div > div > div > div:nth-of-type(1) {
+    display: flex;
+}
+
+.Gmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8%;
+}
+
+.Gmap h2 {
+    font-family: "Montserrat-regular";
+    color: #fff;
+    font-size: 1.7rem;
+    margin-bottom: 5%;
+}
+
+@media all and (max-width: 901px) {
+    .mini_menu p{
+        font-size: 1.5rem;
+    }
+
+    .mini_menu > div:first-of-type > div > div:first-of-type > a {
+        font-size: 1.5rem;
+    }
+
+    .mini_menu > div:nth-of-type(2){
+        display: none;
+    }
+    .mini_menu > div:first-of-type > div > div:nth-of-type(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-basis: 80%;
+    }
+    .mini_menu > div:first-of-type > div > div:nth-of-type(2) a {
+        width: 50%;
+    }
+
+    .mini_menu > div:first-of-type > div > div:nth-of-type(2) > img{
+        display: flex;
+    }
+
+    .mini_menu > div:first-of-type > div > div:nth-of-type(2) img {
+        width: 100%;
+    }
+
+    .mini_menu > div:first-of-type > div > div:first-of-type{
+        flex-basis: 90%;
+    }
+
+    .mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(1){
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(1) p:nth-of-type(2){
+        display: flex;
+    }
+    .mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(1) a{
+        display: none;
+    }
+    .mini_menu > div:first-of-type > div > div:first-of-type > div > div:nth-of-type(2){
+        display: none;
+    }
+    .delivere{
+        margin: 0;
+    }
+    .wrapper_border2 {
+        margin: 8% 5% 0 5%;
+    }
+    .ForUs > div:first-of-type{
+        flex-basis: 80%;
+    }
+    .ForUs > div:nth-of-type(2) {
+        width: 0;
+        flex-basis: 100%;
+    }
+    .Reviews h2{
+        font-size: 5rem;
+        letter-spacing: 5px;
+    }
+    .Reviews a img {
+        width: 90%;
+    }
+    .Reviews p {
+        width: 80%;
+        font-size: 2.5rem;
+    }
+    .Reviews > div{
+        flex-direction: column;
+        margin: 0;
+        gap: 5vw;
+    }
+    .Reviews > div > div:nth-of-type(2) {
+        margin-top: 0;
+    }
+    .Reviews > div > div{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .Reviews > div > div > div {
+        margin-bottom: 0;
+    }
+}
+
+@media all and (max-width: 501px){
+    .ads_coffe > div > div > div:nth-of-type(2) > p {
+        font-size: 3rem;
+    }
+    .ads_coffe > div > div > div:nth-of-type(1) {
+        flex-basis: 50%;
+    }
+    .ads_coffe > div > div > div:nth-of-type(2){
+        display: flex;
+        flex-basis: 50%;
+    }
+    .mini_menu{
+       display: none;
+    }
+    .delivere > div:nth-of-type(2) > div > div > a {
+        font-size: 2rem;
+        width: 200px;
+    }
+    .delivere > div:nth-of-type(2) {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .delivere > div:nth-of-type(2) > div{
+        flex-basis: 100%;
+    }
+    .delivere > div:nth-of-type(2) > div > div {
+        justify-content: flex-end;
+    }
+    .delivere > div:nth-of-type(2) > div:first-of-type > div img:first-of-type {
+        width: 40vw;
+    }
+    .delivere > div:nth-of-type(2) > div:nth-of-type(2) > div img:first-of-type {
+        width: 30vw;
+    }
+    .ForUs > div:first-of-type > div:nth-of-type(2){
+        display: flex;
+    }
+    .ForUs > div:last-of-type{
+        display: none;
+    }
+}

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Montserrat-regular";
+    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+@font-face {
+    font-family: "Misto";
+    src: url(fonts/misto/Misto.ttf);
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Montserrat-regular";
+    color: white;
+    font-size: 1rem;
+}
+
+h2 {
+    font-family: "Montserrat-regular";
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+span {
+    letter-spacing: 3px;
+    font-family: "Misto";
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Montserrat-regular";
+    font-size: 1.3rem;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 1501px) {
+    img {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 1301px) {
+    img {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 1101px) {
+    img {
+        width: 55%;
+    }
+}

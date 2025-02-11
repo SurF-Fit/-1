@@ -1,0 +1,181 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header {
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.active {
+    display: flex !important;
+    flex-direction: column;
+}
+
+header p {
+    font-family: "Misto";
+    color: #fff;
+}
+
+header > div:first-of-type {
+    display: none;
+}
+
+header > div:first-of-type > nav {
+    display: flex;
+}
+
+header > div:first-of-type > nav > menu {
+    list-style-type: none;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    gap: 10px;
+    background-color: rgba(56, 51, 48, .8);
+    padding: 4vw 1vw 4vw 1vw;
+    position: fixed;
+    top: 8vh;
+    text-align: left;
+}
+
+header > div:nth-of-type(2) img:hover {
+    transform: scale(90%);
+    transition: linear .5s;
+}
+
+header > div {
+    display: flex;
+    text-align: justify;
+}
+
+header > div:nth-of-type(7) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+header > div:nth-of-type(3){
+    width: 50%;
+}
+
+.anchorNew {
+    display: contents;
+    position: absolute;
+}
+
+.anchor {
+    display: none;
+    position: absolute;
+}
+
+header > div:last-of-type a {
+    position: fixed;
+    right: 1vw;
+    top: 85vh;
+}
+
+header > div:last-of-type a:hover {
+    transform: scale(1.1);
+    transition: all linear .5s;
+}
+
+header > div:last-of-type a > img {
+    filter: opacity(60%);
+    width: 80%;
+}
+
+#anchor {
+    scroll-behavior: smooth;
+}
+
+#anchor img {
+    width: 80%;
+}
+
+.none {
+    display: none !important;
+}
+
+header > div:nth-of-type(4) {
+    display: flex;
+    justify-content: start;
+}
+
+.flex {
+    display: flex !important;
+}
+
+header > div:nth-of-type(5) {
+    display: none;
+    background-image: url(../img/fullreserch.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+header > div:nth-of-type(5) > input[type="text"] {
+    font-family: "Montserrat-regular";
+    font-size: 1rem;
+    padding: 5%;
+    outline: none;
+    background: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+}
+
+header > div:nth-of-type(6) > a {
+    border: solid #fff 1px;
+    padding: 10% 15% 10% 15%;
+}
+
+@media all and (max-width: 1501px) {
+    #anchor img {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1301px) {
+    #anchor img {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 1101px) {
+    #anchor img {
+        width: 55%;
+    }
+}
+
+@media all and (max-width: 901px) {
+    header > div:first-of-type {
+        display: flex;
+    }
+
+    header > div:nth-of-type(3) {
+        display: none;
+    }
+
+    header > div:nth-of-type(4) {
+        display: none;
+    }
+
+    header > div:nth-of-type(1) img {
+        width: 39px;
+    }
+
+    header > div:nth-of-type(1) {
+        flex-basis: 25vw;
+    }
+}

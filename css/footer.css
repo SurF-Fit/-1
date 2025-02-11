@@ -1,0 +1,72 @@
+@import url(fonts.css);
+@import url(main.css);
+
+footer{
+    justify-content: space-between;
+}
+
+footer > div > div > a img{
+    display: flex;
+    width: 7vw;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+footer > div > div > a {
+    display: flex;
+    justify-content: center;
+}
+
+footer > div > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > div > div > div > a {
+    display: flex;
+    justify-content: center;
+}
+
+footer > div:nth-of-type(2) > div:last-of-type > div > a > img {
+    width: 4vw;
+}
+
+footer a, footer h2, footer p {
+    font-family: "Montserrat-regular";
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 901px) {
+    footer > div {
+        flex-direction: column;
+    }
+    footer > div:nth-of-type(2) > div:last-of-type > div > a > img {
+        width: 6vw;
+    }
+}
+
+@media all and (max-width: 501px) {
+    footer {
+        flex-direction: column;
+    }
+    footer > div {
+        flex-direction: column;
+    }
+    footer > div:nth-of-type(2) > div:last-of-type > div > a > img {
+        width: 6vw;
+    }
+}

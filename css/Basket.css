@@ -1,0 +1,136 @@
+@import url(fonts.css);
+@import url(main.css);
+@import url(header.css);
+@import url(footer.css);
+
+main {
+    margin: 4% 0 4% 0;
+}
+
+main img {
+    width: 100%;
+}
+main > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main > div > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70vw;
+}
+
+.Basket h2 {
+    font-size: 2.6rem;
+}
+
+.Basket {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    gap: 10px;
+}
+
+.Basket > div {
+    display: flex;
+    gap: 3vw;
+    flex-basis: 100%;
+}
+
+.Basket > div > p {
+    flex-basis: 50%;
+}
+
+.Basket > div p {
+    font-size: 1.4rem;
+}
+
+.Basket > div > div{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+.Basket > div > p {
+    width: 10vw;
+}
+
+.Basket2{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    gap: 1vw;
+}
+
+.Basket2 h2 {
+    cursor: pointer;
+    color: gray;
+}
+
+.Basket2 h2:hover{
+    color: white;
+}
+
+.Basket2 > div:nth-of-type(2),.case2{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.Basket2 input{
+    background: none;
+    border: 1px white solid;
+    height: 40px;
+    color: white;
+    padding-left: 1vw;
+}
+
+.Basket2 input[name=cash]{
+    color: white;
+}
+
+.Basket2 input::placeholder{
+    color: gray;
+}
+
+.Basket2 > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Basket2 button {
+    background: none;
+    display: flex;
+    height: 40px;
+    border: 1px white solid;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Basket2 button img {
+    width: 1.5vw;
+}
+
+.case2 {
+    display: none;
+}
+
+.active {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.none {
+    display: none !important;
+}
+
+@media all and (max-width: 500px) {
+    main > div > div {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
